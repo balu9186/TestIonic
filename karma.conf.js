@@ -44,7 +44,7 @@ module.exports = function (config) {
         flags: ['--no-sandbox','--headless','--disable-gpu','--disable-translate','--disable-extensions']
       }
     },
-    singleRun: false,
+    singleRun: true,
     restartOnFileChange: true
   });
 };
